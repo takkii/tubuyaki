@@ -1,3 +1,5 @@
+![zinbeiのロゴ](https://github.com/takkii/zinbei/blob/master/images/logo.jpeg)
+
 ##Tubuyaki(Ruby/Tkで作っていくつぶやきツールです)
 
 コマンドプロンプトや端末やiTerm2などで、
