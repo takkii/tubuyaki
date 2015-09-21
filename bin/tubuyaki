@@ -13,17 +13,31 @@ print "Tubuyaki_Version : "
 puts Tubuyaki::VERSION
 end
 
-def soft
-require 'tk'
+def start
+puts "取扱説明書".center(60,'-')
+puts ""
+puts "
 
+>tubuyaki
+　∟tubuyakiを起動します
+
+>tubuyaki -v
+　∟tubuyakiのバージョンを表示します
+
+tubuyakiはMITライセンスです
+
+"
+puts""
+puts "取扱説明書".center(60,'-')
+end
+
+def soft
+require 'tk'    
 TkLabel.new(nil,
 :text => "会話してね、楽しくどうぞ！",
 :fg => "blue").pack
 
-# ボタンを作成
-
 entry = TkEntry.new.pack
-
 
 c = TkButton.new(:text => "つぶやく").pack("fill" => "x","padx" => 2.5,"pady" => 2.5)
 c.command proc {TkLabel.new(nil,
@@ -42,11 +56,13 @@ c.command proc {TkLabel.new(nil,
 Tk.mainloop
 end
 
-module_function :soft,:version
+module_function :soft, :version, :start
 end
 
 v = /\Aversion\z/
 ve = /\A[-][v]\z/
+h = /\Ahelp\z/
+he = /\A[-][h]\z/
 
 one = ARGV[0]
 
@@ -57,17 +73,11 @@ when one.match(v)
 Tubuyaki.version
 when one.match(ve)
 Tubuyaki.version
+when one.match(h)
+Tubuyaki.start
+when one.match(he)
+Tubuyaki.start
 else
 puts "Please choose an option."
+require 'tubuyaki.rb'
 end
-
-#require "bundler/setup"
-# You can add fixtures and/or initialization code here to make experimenting
-# with your gem easier. You can also use a different console, if you like.
-
-# (If you use this, don't forget to add pry to your Gemfile!)
-# require "pry"
-# Pry.start
-
-#require "irb"
-#IRB.start
