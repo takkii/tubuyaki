@@ -1,3 +1,3 @@
 #coding: utf-8
 
-#puts "To my wife who loves."
+#puts "Dear my wife."
