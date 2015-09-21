@@ -25,7 +25,7 @@ tubuyakiはMITライセンスです。
 
 初年発行2015年、著作権はTakayuki Kamiyamaにあります。
 
-Copyright (c) 2015 Takayuki Kamiyama
+>Copyright (c) 2015 Takayuki Kamiyama
 
 >以下に定める条件に従い、
 本ソフトウェアおよび関連文書のファイル（以下「ソフトウェア」）
