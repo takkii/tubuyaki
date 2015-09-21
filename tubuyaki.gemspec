@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = "スタンドアロン版、つぶやきツールです"
   spec.description   = "Ruby/Tkで作るつぶやきツールです"
   spec.executables   = ["tubuyaki"]
-  spec.homepage      = "http://github.com/takkii"
+  spec.homepage      = "http://github.com/takkii/tubuyaki"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
