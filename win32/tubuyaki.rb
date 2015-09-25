@@ -2,7 +2,7 @@ require 'tk'
 
 window = TkRoot.new{
 title 'tubuyaki'
-resizable[0,0]
+resizable [0,0]
 }
 
 window1 = TkToplevel.new{

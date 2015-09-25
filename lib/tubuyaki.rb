@@ -35,28 +35,36 @@ puts "取扱説明書".center(60,'-')
 end
 
 def soft
-require 'tk'    
+require 'tk'
+
+window = TkRoot.new{
+title 'tubuyaki'
+resizable [0,0]
+}
+
+window1 = TkToplevel.new{
+title 'boyaki is shout!'
+}
+    
 TkLabel.new(nil,
-:text => "会話してね、楽しくどうぞ！",
+:text => "ひとりごと、ぼやいったー！ポチっとな！",
 :fg => "blue").pack
 
-entry = TkEntry.new.pack
+entry = TkEntry.new.pack('side'=>'left')
 
-c = TkButton.new(:text => "つぶやく").pack("fill" => "x","padx" => 2.5,"pady" => 2.5)
-c.command proc {TkLabel.new(nil,
+c = TkButton.new(:text => "(´･ω･｀)").pack('fill'=>'x',"padx"=>2.5,"pady"=>2.5)
+
+c.command proc {
+
+TkLabel.new(window1,
         :text => ("#{entry.value}"),
-            :fg => "black",
-            :bg => "green").pack("fill" => "x","padx" => 2.5,"pady" => 2.5)}
+        :fg => "white",
+        :bg => "blue").pack('fill'=>'x',"padx" => 2.5,"pady" => 2.5)
 
-enter = TkEntry.new.pack
-
-c = TkButton.new(:text => "つぶやく").pack("fill" => "x","padx" => 2.5,"pady" => 2.5)
-c.command proc {TkLabel.new(nil,
-        :text => ("#{enter.value}"),
-            :fg => "white",
-            :bg => "red").pack("fill" => "x","padx" => 2.5,"pady" => 2.5)}
+}
 
 Tk.mainloop
+
 end
 
 module_function :soft, :version, :start
