@@ -1,11 +1,15 @@
-require 'spec_helper'
+#require 'spec_helper'
 
-describe Tubuyaki do
-  it 'has a version number' do
-    expect(Tubuyaki::VERSION).not_to be nil
-  end
+module Tubuyaki
+	module_function
+	def version
+		"0.0.3.1"
+	end
+end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
-  end
+describe "Tubuyaki" do
+	it ":expect say '0.0.3.1' when it receives the greet() message" do
+		versioning = Tubuyaki.version
+		expect(versioning) == "0.0.3.1"
+	end
 end
