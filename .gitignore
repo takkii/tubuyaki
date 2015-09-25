@@ -7,3 +7,6 @@
 /pkg/
 /spec/reports/
 /tmp/
+
+win32/n_ruka.ico
+win32/ruka.lnk
