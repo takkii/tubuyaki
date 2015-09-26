@@ -56,8 +56,20 @@ c = TkButton.new(:text => "(´･ω･｀)").pack('fill'=>'x',"padx"=>2.5,"pady"
 
 c.command proc {
 
- saikoro = Random.rand(4)
+ saikoro = Random.rand(6)
+
  case saikoro
+
+ when 4 then
+ TkLabel.new(window1,
+        :text => ("#{entry.value}"),
+        :fg => "black",
+        :bg => "yellow").pack('fill'=>'x',"padx" => 2.5,"pady" => 2.5)
+ when 3 then
+ TkLabel.new(window1,
+        :text => ("#{entry.value}"),
+        :fg => "black",
+        :bg => "white").pack('fill'=>'x',"padx" => 2.5,"pady" => 2.5)
  when 2 then
  TkLabel.new(window1,
         :text => ("#{entry.value}"),
