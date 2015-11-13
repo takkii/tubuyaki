@@ -35,8 +35,6 @@ puts "取扱説明書".center(60,'-')
 end
 
 def soft
-#  Copyright © 2015 Takayuki, Kamiyama
-
 require 'tk'
 
 window = TkRoot.new{
@@ -49,16 +47,12 @@ title 'boyaki is shout!'
 }
     
 TkLabel.new(nil,
-:text => "ひとりごと...顔だけキン肉マン...かおだけきん...",
+:text => "ひとりごと、ぼやいったー！ポチっとな！",
 :fg => "blue").pack
-#家族、曰く私が眠くなるという独り言らしい
 
 entry = TkEntry.new.pack('side'=>'left')
 
-c = TkButton.new{
-  image TkPhotoImage.new("file" => "lib/tweet_icon.gif")
-  pack('fill'=>'x',"padx"=>2.5,"pady"=>2.5)
-}
+c = TkButton.new(:text => "(´･ω･｀)").pack('fill'=>'x',"padx"=>2.5,"pady"=>2.5)
 
 c.command proc {
 
