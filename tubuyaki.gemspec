@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   "bin/tubuyaki",
   "bin/setup",
   "lib/tubuyaki.rb",
-  "lib/tweet_icon.gif",
+  "tubuyaki_GUI.zip",
   "lib/tubuyaki/version.rb",]
   #spec.bindir        = "exe"
   #spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
