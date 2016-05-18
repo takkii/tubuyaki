@@ -10,3 +10,8 @@
 
 win32/n_ruka.ico
 win32/ruka.lnk
+/nbproject/private/
+git.exe.stackdump
+nbproject/project.properties
+nbproject/project.xml
+.gitignore

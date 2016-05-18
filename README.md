@@ -1,4 +1,3 @@
-![zinbei‚ÌƒƒS](https://github.com/takkii/zinbei/blob/master/images/logo.jpeg)
 [![Build Status](https://travis-ci.org/takkii/tubuyaki.svg)](https://travis-ci.org/takkii/tubuyaki)
 
 ##Tubuyaki(Ruby/Tk‚Åì‚Á‚Ä‚¢‚­‚Â‚Ô‚â‚«ƒc[ƒ‹‚Å‚·)
