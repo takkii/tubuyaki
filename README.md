@@ -1,81 +1,30 @@
 [![Build Status](https://travis-ci.org/takkii/tubuyaki.svg)](https://travis-ci.org/takkii/tubuyaki)
 
-##Tubuyaki(Ruby/Tk‚Åì‚Á‚Ä‚¢‚­‚Â‚Ô‚â‚«ƒc[ƒ‹‚Å‚·)
+##Tubuyaki(Ruby/Tkã§ä½œã£ã¦ã„ãã¤ã¶ã‚„ããƒ„ãƒ¼ãƒ«ã§ã™)
 
-ƒRƒ}ƒ“ƒhƒvƒƒ“ƒvƒg‚â’[––‚âiTerm2‚È‚Ç‚ÅA
+ã‚³ãƒžãƒ³ãƒ‰ãƒ—ãƒ­ãƒ³ãƒ—ãƒˆã‚„ç«¯æœ«ã‚„iTerm2ãªã©ã§ã€
 
 >gem install tubuyaki
 
 >tubuyaki
 
-‚Æ“ü—Í‚·‚ê‚ÎA‚Â‚Ô‚â‚«ƒc[ƒ‹‚ª“®ì‚·‚é‚Í‚¸‚Å‚·B
+ã¨å…¥åŠ›ã™ã‚Œã°ã€ã¤ã¶ã‚„ããƒ„ãƒ¼ãƒ«ãŒå‹•ä½œã™ã‚‹ã¯ãšã§ã™ã€‚
 
-‚à‚µ“®ì‚µ‚È‚¯‚ê‚ÎARuby/Tk‚ª“®ì‚·‚éŠÂ‹«‚©’²‚×‚é•K—v‚ª‚ ‚è‚Ü‚·B
+ã‚‚ã—å‹•ä½œã—ãªã‘ã‚Œã°ã€Ruby/TkãŒå‹•ä½œã™ã‚‹ç’°å¢ƒã‹èª¿ã¹ã‚‹å¿…è¦ãŒã‚ã‚Šã¾ã™ã€‚
 
 >tubuyaki -v
 
-‚Æ“ü—Í‚·‚ê‚Îtubuyaki‚ÌŒ»Ý‚Ìƒo[ƒWƒ‡ƒ“‚ð’m‚é‚±‚Æ‚ª‚Å‚«‚Ü‚·B
+ã¨å…¥åŠ›ã™ã‚Œã°tubuyakiã®ç¾åœ¨ã®ãƒãƒ¼ã‚¸ãƒ§ãƒ³ã‚’çŸ¥ã‚‹ã“ã¨ãŒã§ãã¾ã™ã€‚
 
-[‘z’è‚³‚ê‚é—p“r]
-ƒXƒ^ƒ“ƒhƒAƒƒ“”Å‚È‚Ì‚ÅAƒCƒ“ƒgƒ‰ƒlƒbƒgiƒCƒ“ƒ^[ƒlƒbƒg‚É‚Â‚È‚ª‚È‚¢j‚±‚Æ‚ðA
-‘z’è‚µ‚Ä‚¢‚«‚Ü‚·BDropBox(ƒCƒ“ƒ^[ƒlƒbƒg—L)‚È‚Ç‚ÅA‚â‚è‚Æ‚è‚ª‚Å‚«‚ê‚ÎA
-ƒƒWƒƒ[ƒo[ƒWƒ‡ƒ“‚Æ‚µ‚ÄŽÀ‰Ò“®‚É“ü‚è‚Ü‚·B
+[æƒ³å®šã•ã‚Œã‚‹ç”¨é€”]
+ã‚¹ã‚¿ãƒ³ãƒ‰ã‚¢ãƒ­ãƒ³ç‰ˆãªã®ã§ã€ã‚¤ãƒ³ãƒˆãƒ©ãƒãƒƒãƒˆï¼ˆã‚¤ãƒ³ã‚¿ãƒ¼ãƒãƒƒãƒˆã«ã¤ãªãŒãªã„ï¼‰ã“ã¨ã‚’ã€
+æƒ³å®šã—ã¦ã„ãã¾ã™ã€‚
 
-tubuyaki‚ÍMITƒ‰ƒCƒZƒ“ƒX‚Å‚·B
+[ã¯ã¦ãªãƒ–ãƒ­ã‚°ã§ç´¹ä»‹]
+[Ruby Advent Calendar 2015ï¼ˆ12æœˆ3æ—¥ï¼‰ Ruby/Tkã‚’ä½¿ã£ãŸGUIãƒ„ãƒ¼ãƒ«ã«ã¤ã„ã¦](http://blog.takkii.org/entry/2015/12/03/Ruby_Advent_Calendar_2015%EF%BC%8812%E6%9C%883%E6%97%A5%EF%BC%89_Ruby/Tk%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%9FGUI%E3%83%84%E3%83%BC%E3%83%AB%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
->The tubuyaki is  MIT License (MIT)
 
-‰”N”­s2015”NA’˜ìŒ ‚ÍTakayuki Kamiyama‚É‚ ‚è‚Ü‚·B
+â€»ãƒ©ã‚¤ã‚»ãƒ³ã‚¹æƒ…å ±ã¯Githubãƒ¬ãƒã‚¸ãƒˆãƒªã§å¯è¦–ã§ãã¾ã™ã€‚
 
->Copyright (c) 2015 Takayuki Kamiyama
-
->ˆÈ‰º‚É’è‚ß‚éðŒ‚É]‚¢A
-–{ƒ\ƒtƒgƒEƒFƒA‚¨‚æ‚ÑŠÖ˜A•¶‘‚Ìƒtƒ@ƒCƒ‹iˆÈ‰ºuƒ\ƒtƒgƒEƒFƒAvj
-‚Ì•¡»‚ðŽæ“¾‚·‚é‚·‚×‚Ä‚Ìl‚É‘Î‚µAƒ\ƒtƒgƒEƒFƒA‚ð–³§ŒÀ‚Éˆµ‚¤
-‚±‚Æ‚ð–³ž‚Å‹–‰Â‚µ‚Ü‚·B
-‚±‚ê‚É‚ÍAƒ\ƒtƒgƒEƒFƒA‚Ì•¡»‚ðŽg—pA•¡ŽÊA•ÏXAŒ‹‡AŒfÚA”Ð•zA
-ƒTƒuƒ‰ƒCƒZƒ“ƒXA‚¨‚æ‚Ñ/‚Ü‚½‚Í”Ì”„‚·‚éŒ —˜A
-‚¨‚æ‚Ñƒ\ƒtƒgƒEƒFƒA‚ð’ñ‹Ÿ‚·‚é‘ŠŽè‚É“¯‚¶‚±‚Æ‚ð‹–‰Â‚·‚éŒ —˜‚à
-–³§ŒÀ‚ÉŠÜ‚Ü‚ê‚Ü‚·B 
-
->ã‹L‚Ì’˜ìŒ •\Ž¦‚¨‚æ‚Ñ–{‹–‘ø•\Ž¦‚ðA
-ƒ\ƒtƒgƒEƒFƒA‚Ì‚·‚×‚Ä‚Ì•¡»‚Ü‚½‚Íd—v‚È•”•ª‚É‹LÚ‚·‚é‚à‚Ì‚Æ‚µ‚Ü‚·B 
-
->ƒ\ƒtƒgƒEƒFƒA‚ÍuŒ»ó‚Ì‚Ü‚Üv‚ÅA–¾Ž¦‚Å‚ ‚é‚©ˆÃ–Ù‚Å‚ ‚é‚©‚ð–â‚í‚¸A
-‰½‚ç‚Ì•ÛØ‚à‚È‚­’ñ‹Ÿ‚³‚ê‚Ü‚·B
-‚±‚±‚Å‚¢‚¤•ÛØ‚Æ‚ÍA¤•i«A“Á’è‚Ì–Ú“I‚Ö‚Ì“K‡«A
-‚¨‚æ‚ÑŒ —˜”ñNŠQ‚É‚Â‚¢‚Ä‚Ì•ÛØ‚àŠÜ‚Ý‚Ü‚·‚ªA
-‚»‚ê‚ÉŒÀ’è‚³‚ê‚é‚à‚Ì‚Å‚Í‚ ‚è‚Ü‚¹‚ñB 
-ìŽÒ‚Ü‚½‚Í’˜ìŒ ŽÒ‚ÍAŒ_–ñsˆ×A•s–@sˆ×A
-‚Ü‚½‚Í‚»‚êˆÈŠO‚Å‚ ‚ë‚¤‚ÆAƒ\ƒtƒgƒEƒFƒA‚É‹Nˆö‚Ü‚½‚ÍŠÖ˜A‚µA
-‚ ‚é‚¢‚Íƒ\ƒtƒgƒEƒFƒA‚ÌŽg—p‚Ü‚½‚Í‚»‚Ì‘¼‚Ìˆµ‚¢‚É‚æ‚Á‚Ä
-¶‚¶‚éˆêØ‚Ì¿‹A‘¹ŠQA
-‚»‚Ì‘¼‚Ì‹`–±‚É‚Â‚¢‚Ä‰½‚ç‚ÌÓ”C‚à•‰‚í‚È‚¢‚à‚Ì‚Æ‚µ‚Ü‚·B 
-
->Permission is hereby granted, free of charge, 
-to any person obtaining a copy of this software and
-associated documentation files (the [Software]),
-to deal in the Software without restriction, 
-including without limitation the rights to use, copy, modify,
-merge, publish, distribute, sublicense,
-and/or sell copies of the Software, 
-and to permit persons to whom the Software is furnished to do so, 
-subject to the following conditions:
- 
->The above copyright notice and 
-this permission notice shall be included 
-in all copies or substantial portions of the Software.
- 
->THE SOFTWARE IS PROVIDED [AS IS],
-WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR 
-COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, 
-DAMAGES OR OTHER LIABILITY, 
-WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, 
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE 
-OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-«tubuyaki‚Ì“®ìó‹µ‚ðƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg«
-![tubuyaki‚ÌƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg](https://github.com/takkii/tubuyaki/blob/master/photo/tubuyaki.jpg)
+â†“tubuyakiã®å‹•ä½œçŠ¶æ³ã‚’ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆâ†“
+![tubuyakiã®ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆ](https://github.com/takkii/tubuyaki/blob/master/photo/tubuyaki.jpg)
