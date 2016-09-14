@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/takkii/tubuyaki.svg)](https://travis-ci.org/takkii/tubuyaki)
+[![Gem Version](https://badge.fury.io/rb/tubuyaki.svg)](https://badge.fury.io/rb/tubuyaki) [![Build Status](https://travis-ci.org/takkii/tubuyaki.svg)](https://travis-ci.org/takkii/tubuyaki)
 
 ##Tubuyaki(Ruby/Tkで作っていくつぶやきツールです)
 
