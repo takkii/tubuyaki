@@ -1,6 +1,5 @@
 /.bundle/
 /.yardoc
-/Gemfile.lock
 /_yardoc/
 /coverage/
 /doc/
@@ -14,4 +13,4 @@ win32/ruka.lnk
 git.exe.stackdump
 nbproject/project.properties
 nbproject/project.xml
-.gitignore
+/.gitignore
