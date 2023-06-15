@@ -1,5 +1,3 @@
-[![Gem Version](https://badge.fury.io/rb/tubuyaki.svg)](https://badge.fury.io/rb/tubuyaki) 
-
 ##Tubuyaki(Ruby/Tkで作っていくつぶやきツールです)
 
 コマンドプロンプトや端末やiTerm2などで、
